@@ -14,10 +14,7 @@ public class SpringLearnApplication {
             LoggerFactory.getLogger(SpringLearnApplication.class);
 
     public static void main(String[] args) {
-
         SpringApplication.run(SpringLearnApplication.class, args);
-
-        displayCountry();
     }
 
     public static void displayCountry() {
